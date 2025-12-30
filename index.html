@@ -78,14 +78,15 @@
 
         <!-- STEP 1: The Envelope (Visible Initially) -->
         <div id="envelope-section" class="transition-all duration-1000 ease-in-out cursor-pointer hover:scale-105" onclick="openCard()">
-            <div class="relative w-72 h-48 bg-rose-300 mx-auto rounded-b-xl shadow-2xl flex items-center justify-center border-b-4 border-rose-400">
+            <div class="relative w-72 h-48 bg-rose-300 mx-auto rounded-b-xl shadow-2xl flex items-end justify-center pb-6 border-b-4 border-rose-400">
+                
                 <!-- Flap (Top triangle) -->
                 <div id="envelope-flap" class="absolute top-0 left-0 w-0 h-0 border-l-[144px] border-r-[144px] border-t-[100px] border-l-transparent border-r-transparent border-t-rose-400 origin-top transition-slow z-20"></div>
                 
                 <!-- Envelope Body Content -->
                 <div class="z-10 text-white">
                     <p class="handwriting text-3xl drop-shadow-md">Untuk Kamu</p>
-                    <p class="text-xs mt-2 opacity-80">(Klik untuk membuka)</p>
+                    <p class="text-xs mt-1 opacity-80">(Klik untuk membuka)</p>
                 </div>
             </div>
         </div>
@@ -230,4 +231,5 @@
         });
     </script>
 </body>
+
 </html>
